@@ -1,4 +1,60 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  margin-top: 5%;
+  margin-left: 5%;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
 
+h1 {
+  color: black;
+}
+.amount p {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 2vh;
+}
+.amount input[id="principal"] {
+  display: inline-block;
+  font-size: 2vh;
+  text-align: center;
+  height: 3vh;
+  width: 15vh;
+}
 
+.rate p {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 2vh;
+}
+
+.rate input[id="rateInput"] {
+  display: inline-block;
+}
+#amount {
+  font-size: 2vh;
+}
+.years p {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 2vh;
+}
+.years input[id="years"] {
+  display: inline-block;
+  font-size: 2vh;
+  height: 3vh;
+  width: 10vh;
+  text-align: center;
+}
+
+button {
+  background-color: greenyellow;
+  font-weight: bold;
+  font-size: 1.5vh;
+  width: 15vh;
+  height: 5vh;
+}
+#result {
+  text-align: center;
+  font-size: 2vh;
+  height: auto;
+  width: 20vh;
+}
