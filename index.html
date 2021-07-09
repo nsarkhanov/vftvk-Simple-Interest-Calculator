@@ -12,7 +12,7 @@
         </div>
       <div class="rate">
           <p>Rate</p>
-        <input type="range" id="rateInput" name="rateInput"  min="0" max="20" step="0.1" value="0"
+        <input type="range" id="rateInput" name="rateInput"  min="1" max="20" step="0.1" value="0"
         oninput="amount.value=rateInput.value">                                                       
         <output id="amount" name="amount" for="rateInput">0</output>
         <br/>
@@ -28,10 +28,26 @@
         <br>
 
         <div class="results_hide" id="result">
+            <p>If you deposit</p>
+            <span   id="result_amount">
+            </span><br>
+            <p> at an interest rate </p> 
+            <span  id="result_rate">
+            </span><br>
+            <p> You will receive an amount of </p>
+            <span  id="result_result">
+            </span><br>
+            <p>  in the </p> 
+            <span  id="result_year">
+            </span>
 		</div>
+
       
 
         <button onclick="compute()">Compute interest</button>
         
     </body>
+    <footer>
+        <p> Ⓒ Everyone Can Get Rich</p> 
+    </footer>
 </html>

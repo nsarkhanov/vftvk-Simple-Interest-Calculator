@@ -49,7 +49,10 @@ function compute()
     var checkd=checkdata(p,r,y)
     if( checkerr==true && checkd==true){
 
-    document.getElementById("result").innerHTML ="If you deposit " +p+"at an interest rate " +r+" You will receive an amount of "+result+", in the "+year;
+    document.getElementById("result_amount").innerHTML =p;
+    document.getElementById("result_rate").innerHTML =r;
+    document.getElementById("result_result").innerHTML =result;
+    document.getElementById("result_year").innerHTML =year;
     // document.getElementById("deposit").innerHTML = "write me to the screen";
     }
     else {

@@ -52,9 +52,20 @@ button {
   width: 15vh;
   height: 5vh;
 }
-#result {
-  text-align: center;
+
+#result_amount {
   font-size: 2vh;
-  height: auto;
-  width: 20vh;
+}
+#result_rate {
+  font-size: 2vh;
+}
+#result_result {
+  font-size: 2vh;
+}
+#result_year {
+  font-size: 2vh;
+}
+
+span {
+  color: yellow;
 }
